@@ -7,8 +7,7 @@
     "content_scripts": [
         {
           "matches": [
-            "https://*.console.aws.amazon.com/*",
-            "https://developer.chrome.com/docs/extensions/get-started/tutorial/debug"
+            "https://*.console.aws.amazon.com/*"
           ],
           "js": ["content-script.js"]
         }

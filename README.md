@@ -2,11 +2,11 @@
 
 This is a Chrome extension that changes the header color of the AWS console to a color of your choice based on the URL being used to access the console. This is useful if you have multiple AWS accounts and want to easily differentiate between them as below.
 
-![alt text](images/plugin.png)
+![alt text](images/console.png)
 
 The plugin can be configured via JSON
 
-![alt text](images/console.png)
+![alt text](images/plugin.png)
 
 
 

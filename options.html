@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Configuration</h1>
+        <p>Please enter a colour per AWS console URL using the following JSON as a guide. </p>
+        <p style="font-size: 0.8em"><strong>Hint: </strong>you can right click the extension button and choose "Options" for more space.</p>
+        <pre>{
+    "https://your-account-id.eu-west-1.console.aws.amazon.com/": "#ff5313",
+    "https://your-account-id.eu-west-1.console.aws.amazon.com/": "#ff9f13",
+    "https://your-account-id.eu-west-1.console.aws.amazon.com/": "#6cb60b"
+}</pre>
+        <form>
+            <textarea id="config"></textarea>
+            <p id="config-output"></p>
+            <p><button id="save">Update Settings</button></p>
+        </form>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+</html>

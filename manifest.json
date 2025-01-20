@@ -1,0 +1,33 @@
+{
+    "name": "AWS Header Colour Changer",
+    "description": "Change the AWS header colour based on the URL, this is useful for distinguishing between different AWS accounts.",
+    "version": "1.0",
+    "author": "benanderton@gmail.com",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+          "matches": [
+            "https://*.console.aws.amazon.com/*",
+            "https://developer.chrome.com/docs/extensions/get-started/tutorial/debug"
+          ],
+          "js": ["content-script.js"]
+        }
+      ],
+    "permissions": [
+      "activeTab",
+      "storage",
+      "scripting"
+    ],
+    "action": {
+        "default_popup": "options.html",
+      "default_icon": {
+        "48": "/images/icon-48.png",
+        "128": "/images/icon-128.png"
+      }
+    },
+    "icons": {
+        "48": "/images/icon-48.png",
+        "128": "/images/icon-128.png"
+    },
+    "options_page": "options.html"
+  }

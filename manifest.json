@@ -13,9 +13,7 @@
         }
       ],
     "permissions": [
-      "activeTab",
-      "storage",
-      "scripting"
+      "storage"
     ],
     "action": {
         "default_popup": "options.html",
